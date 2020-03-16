@@ -1,0 +1,79 @@
+*{
+  margin: 0px;
+font-family: 'Playfair Display', serif;
+}
+
+body{
+
+  background-color: #66b3ff;
+}
+
+.site{
+  background-color: #FFFFFF;
+  /* LARGURA */
+  width: 800PX;
+   /* centralizar */
+   margin: 0px auto;
+padding: 50px;
+}
+
+.site .conteudo{
+background-color: #ff99cc;
+min-height: 80px;
+margin: 15px 0px;
+padding: 15px 0px;
+border: 5px  #ff4da6 solid;
+
+}
+/* a virgula é usada para alterar as duas divs */
+.site .topo, .rodape{
+  font-family: 'Bitter', serif;
+  /* centralizar */
+  text-align: center;
+}
+.menu{
+  background-color:  #ffb3ff;
+}
+.menu a:hover {
+  background-color: #ff33ff;
+}
+.menu ul{
+  list-style-type: none;
+  text-align: center;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.botao{
+  font-size: 18px;
+/*  remove a linha que fica embaixo do link*/
+  text-decoration: none;
+  padding: 5px 20px;
+/*exibe o link como um bloco em linhas*/
+  display: inline-block;
+  /*arredenda a borda*/
+  border-radius: 5px;
+}
+.botao-azul{
+  background-color: #4da6ff;
+}
+.botao-azul:hover{
+  background-color: #000099;
+}
+.botao-verde{
+  background-color: #00e6ac;
+}
+.botao-verde:hover{
+  background-color: #009900;
+}
+.botao-vermelho{
+  background-color: #ff1a1a;
+}
+.botao-vermelho:hover{
+  background-color: #990000;
+}
